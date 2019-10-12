@@ -15,6 +15,9 @@ public class Application {
         SpringApplication.run(Application.class);
     }
 
+    /**
+     * 应用starter里面的service
+     */
     @Autowired
     private StarService starService;
 
